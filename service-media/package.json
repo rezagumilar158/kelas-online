@@ -6,10 +6,15 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "base64-img": "^1.0.4",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^16.0.3",
     "express": "~4.16.1",
-    "morgan": "~1.9.1"
+    "is-base64": "^1.1.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.2.3",
+    "sequelize": "^6.31.0",
+    "sequelize-cli": "^6.6.0"
   }
 }
